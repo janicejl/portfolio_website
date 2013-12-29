@@ -1,0 +1,102 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+#divNav {
+	width:50%;
+	position:absolute;
+	right: 0px;
+	bottom: 0px;
+	margin:0 auto;
+}
+
+#divNav ul li {
+	margin: 1px;
+}
+
+#divNav ul li a {
+	display:block;
+	width: inherit;
+	text-align: right;
+	text-decoration:none;
+	padding: 5px;
+	margin: 2px 0 0 0;
+	color: #FFF;
+	border: 1px solid #6CF; 
+	border-radius: 4px; 
+	-webkit-border-radius: 4px; 
+	-moz-border-radius: 4px;
+	background-color: #3CF;
+	background-color: rgba(18,103,179,1);
+	background-image: -webkit-linear-gradient(#6CF,#3CF);
+	background-image: -moz-linear-gradient(#6CF,#3CF);
+}
+
+#divNav li a:hover {
+	color: #FC0;
+	background-color: #09F;
+	background-color: rgba(18,103,179,1);
+	background-image: -webkit-linear-gradient(#3CF,#09F);
+	background-image: -moz-linear-gradient(#3CF,#09F);
+}
+
+
+@media screen and (min-width:0px) and (max-width:500px) {
+	#hello {
+		font-family:Arial, Helvetica, Verdana, Geneva, sans-serif; 
+		font-size: 18px;
+		color: #222;
+		clear: both;
+		margin: 10px;
+	}
+	
+	#janiceLeung {
+		font-family:Arial, Helvetica, Verdana, Geneva, sans-serif; 
+		font-size: 24px;
+		color: #333;
+		font-weight: bold;
+		margin: 10px;
+		clear: both;
+	}
+	
+	#lookAround {
+		font-family:Arial, Helvetica, Verdana, Geneva, sans-serif; 
+		font-size: 16px;
+		font-weight: bold;
+		color: #222;
+		position: absolute;
+		bottom: 130px;
+		right: 0px;
+		margin: 5px;
+	}
+}
+
+@media screen and (min-width:500px) {
+	#hello {
+		font-family:Arial, Helvetica, Verdana, Geneva, sans-serif; 
+		font-size: 72px;
+		color: #222;
+		clear: both;
+		margin: 10px;
+	}
+	
+	#janiceLeung {
+		font-family:Arial, Helvetica, Verdana, Geneva, sans-serif; 
+		font-size: 96px;
+		color: #333;
+		font-weight: bold;
+		margin: 10px;
+		clear: both;
+	}
+	
+	#lookAround {
+		font-family:Arial, Helvetica, Verdana, Geneva, sans-serif; 
+		font-size: 64px;
+		font-weight: bold;
+		color: #222;
+		position: absolute;
+		bottom: 130px;
+		right: 0px;
+		margin: 5px;
+	}
+}
