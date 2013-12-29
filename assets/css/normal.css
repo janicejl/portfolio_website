@@ -1,0 +1,137 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* screen sizes 450px plus */
+
+#divBody {
+	width:80%; 
+	position:absolute;
+	top:0px;
+	right:0px;
+}
+
+#divNav {
+	width:20%;
+	position:absolute;
+	top:0px;
+	left:0px;
+	margin:0 auto;
+}
+
+#divNav ul li {
+	margin: 1px;
+}
+
+#divNav ul li a {
+	display:block;
+	width: inherit;
+	text-decoration:none;
+	padding: 5px;
+	margin: 2px 0 0 0;
+	color: #FFF;
+	border: 1px solid #6CF; 
+	border-radius: 4px; 
+	-webkit-border-radius: 4px; 
+	-moz-border-radius: 4px;
+	background-color: #3CF;
+	background-color: rgba(18,103,179,1);
+	background-image: -webkit-linear-gradient(#6CF,#3CF);
+	background-image: -moz-linear-gradient(#6CF,#3CF);
+}
+
+#divNav li a:hover {
+	color: #FC0;
+	background-color: #09F;
+	background-color: rgba(18,103,179,1);
+	background-image: -webkit-linear-gradient(#3CF,#09F);
+	background-image: -moz-linear-gradient(#3CF,#09F);
+}
+
+	
+#bigButton {
+	width: 50%;
+	height: 320px;
+	margin: 0px auto;
+	float: right;
+}
+
+#bigButton img {
+}
+
+#bigButton li a {
+	display:block;
+	font-size:10pt;
+	line-height:32px;
+	text-align: center;
+	text-decoration:none;
+	color: #FFF;
+	margin:10px 5px 10px 0px;
+	border: 1px solid #6CF; 
+	border-radius: 4px; 
+	-webkit-border-radius: 4px; 
+	-moz-border-radius: 4px;
+	background-color: #3CF;
+	background-color: rgba(18,103,179,1);
+	background-image: -webkit-linear-gradient(#6CF,#3CF);
+	background-image: -moz-linear-gradient(#6CF,#3CF);
+	clear:both;
+}
+
+#bigButton li a:hover {
+	color: #FC0;
+	background-color: #09F;
+	background-color: rgba(18,103,179,1);
+	background-image: -webkit-linear-gradient(#3CF,#09F);
+	background-image: -moz-linear-gradient(#3CF,#09F);
+}
+
+
+
+#smallButton {
+	width: 200px;
+	margin: 0px auto;
+	float: right;
+}
+
+#smallButton img {
+}
+
+#smallButton li a {
+	display:block;
+	font-size:10pt;
+	line-height:32px;
+	text-align: center;
+	text-decoration:none;
+	color: #FFF;
+	margin:10px 5px 10px 0px;
+	border: 1px solid #6CF; 
+	border-radius: 4px; 
+	-webkit-border-radius: 4px; 
+	-moz-border-radius: 4px;
+	background-color: #3CF;
+	background-color: rgba(18,103,179,1);
+	background-image: -webkit-linear-gradient(#6CF,#3CF);
+	background-image: -moz-linear-gradient(#6CF,#3CF);
+}
+
+#smallButton li a:hover {
+	color: #FC0;
+	background-color: #09F;
+	background-color: rgba(18,103,179,1);
+	background-image: -webkit-linear-gradient(#3CF,#09F);
+	background-image: -moz-linear-gradient(#3CF,#09F);
+}
+
+
+
+
+#infoHolder img {
+	margin: 0px 0px 4px 0px;
+	width:200px;
+	display: block;
+	float:left;
+}
+
+#infoHolder div {
+	margin: 0px 0px 0px 210px;
+}

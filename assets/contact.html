@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Janice Leung</title>
+
+
+<link rel="stylesheet" type="text/css" media="screen and (min-width:0px) and (max-width:500px)" href="css/mobile.css" />
+<link rel="stylesheet" type="text/css" media="screen and (min-width:500px)" href="css/normal.css" />
+
+<link rel="stylesheet" type="text/css" href="css/body.css" />
+
+<meta name="viewport"  content="initial-scale=1, width=device-width">
+
+</head>
+
+<body>
+<div id="divContainer">
+
+<div id="divNav">
+	<a href="index.html">
+    <div id="divHeader">
+    	<span class="text12">Hello, my name is </span>
+        <span class="bold14">Janice Leung. </span>
+        <br />
+        <span class="text10" style="float: right">Please look around...</span>
+    </div>
+    </a>
+    <div class="Spacing10"></div>
+    <ul>
+        <li>
+            <a href="about.html">About</a>
+        </li>
+        <li>
+            <a href="projects.html">Projects</a>
+        </li>
+        <li>
+            <a href="articles.html">Articles</a>
+        </li>
+        <li>
+            <a href="contact.html">Contact</a>
+        </li>	
+    </ul>
+</div>
+
+<div id="divBody">
+	<div id="pageHeader">Contact Me</div>
+    <div id="thickLine"></div>
+    
+    <div id="placeHolder">
+    	<div id="divTable">
+            <div id="divTableLeft">
+                <li><span class="bold11">
+                    Phone Number
+                </span></li>
+            </div>
+            <div id="divTableRight">
+                <li><span class="text10">
+                    +1 (408) 386-9876
+                </span></li>
+            </div>
+        </div>
+        
+        <div id="divTable">
+        	<div id="divTableLeft">
+                <li><span class="bold11">
+                    Email
+                </span></li>
+            </div>
+            <div id="divTableRight">
+                <li><span class="text10">
+                    <a href="mailto:jjw1707@gmail.com">jjw1707@gmail.com</a>
+                </span></li>
+                <li><span class="text10">
+                    <a href="mailto:jjw1707@hotmail.com">jjw1707@hotmail.com</a>
+                </span></li>
+            </div>
+        </div>
+    </div>
+    
+    <div id="placeHolder">
+    	<span class="bold12">Contact Form</span>
+        <br />
+        <br />
+        <form action="/contactForm" method="post" name="contact">
+        	<label for="name" class="bold10">Name: </label><br />
+            <input type="text" name="name" maxlength="40" style="width: 50%;" /> 
+            <br />
+            <label for="email" class="bold10">Email: </label><br />
+            <input type="email" name="email" maxlength="40" style="width:50%;" />
+            <br />
+            <label for="subject" class="bold10">Subject: </label><br />
+            <input type="text" name="subject" maxlength="100" style="width: 50%;" />
+            <br />
+            <label for="message" class="bold10">Message: </label><br />
+            <textarea rows="10" cols="40" name="message" style="width: 100%;"></textarea>
+            <br />
+            
+            <div id="smallButton">
+                <li>
+                    <a href="#" onClick="submit();">Send</a>
+                </li>
+            </div>
+        </form>
+        
+        <div class="Spacing01" style="clear:both;"></div>
+       
+    </div>
+    
+    <div class="Spacing10"></div>
+    
+</div>
+
+</div>
+</body>
+
+</html>

@@ -1,0 +1,134 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* screen sizes from 0 to 450px */
+
+#divBody {
+	width: 100%; 
+}
+
+#divNav {
+	width: 100%;
+	display:inline-block;
+}
+
+#divNav ul {
+	width:100%;
+	display:inline-block;
+}
+
+#divNav ul li {
+	float: left;
+	width: 25%;
+	text-align: center;
+}
+
+#divNav ul li a {
+	display:block;
+	text-align: center;
+	text-decoration:none;
+	padding: 5px;
+	margin: 2px 1px 1px 1px;
+	color: #FFF;
+	border: 1px solid #6CF; 
+	border-radius: 4px; 
+	-webkit-border-radius: 4px; 
+	-moz-border-radius: 4px;
+	background-color: #3CF;
+	background-color: rgba(18,103,179,1);
+	background-image: -webkit-linear-gradient(#6CF,#3CF);
+	background-image: -moz-linear-gradient(#6CF,#3CF);
+}
+
+#divNav li a:hover {
+	color: #FC0;
+	background-color: #09F;
+	background-color: rgba(18,103,179,1);
+	background-image: -webkit-linear-gradient(#3CF,#09F);
+	background-image: -moz-linear-gradient(#3CF,#09F);
+}
+
+
+	
+#bigButton {
+	width: 100%;
+}
+
+#bigButton img {
+}
+
+#bigButton li a {
+	display:block;
+	font-size:10pt;
+	line-height:32px;
+	text-align: center;
+	text-decoration:none;
+	color: #FFF;
+	margin:10px;
+	border: 1px solid #6CF; 
+	border-radius: 4px; 
+	-webkit-border-radius: 4px; 
+	-moz-border-radius: 4px;
+	background-color: #3CF;
+	background-color: rgba(18,103,179,1);
+	background-image: -webkit-linear-gradient(#6CF,#3CF);
+	background-image: -moz-linear-gradient(#6CF,#3CF);
+}
+
+#bigButton li a:hover {
+	color: #FC0;
+	background-color: #09F;
+	background-color: rgba(18,103,179,1);
+	background-image: -webkit-linear-gradient(#3CF,#09F);
+	background-image: -moz-linear-gradient(#3CF,#09F);
+}
+
+
+
+
+#smallButton {
+	width: 200px;
+	float:right;
+}
+
+#smallButton img {
+}
+
+#smallButton li a {
+	display:block;
+	font-size:10pt;
+	line-height:32px;
+	text-align: center;
+	text-decoration:none;
+	color: #FFF;
+	margin:10px;
+	border: 1px solid #6CF; 
+	border-radius: 4px; 
+	-webkit-border-radius: 4px; 
+	-moz-border-radius: 4px;
+	background-color: #3CF;
+	background-color: rgba(18,103,179,1);
+	background-image: -webkit-linear-gradient(#6CF,#3CF);
+	background-image: -moz-linear-gradient(#6CF,#3CF);
+}
+
+#smallButton li a:hover {
+	color: #FC0;
+	background-color: #09F;
+	background-color: rgba(18,103,179,1);
+	background-image: -webkit-linear-gradient(#3CF,#09F);
+	background-image: -moz-linear-gradient(#3CF,#09F);
+}
+
+
+
+#infoHolder img {
+	margin: 0px 0px 4px 0px;
+	width:50px;
+	display: block;
+	float:left;
+}
+
+#infoHolder div {
+	margin: 0px 0px 0px 60px;
+}
