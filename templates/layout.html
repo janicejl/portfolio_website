@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Janice Leung</title>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/kube.min.css') }}" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/stylesheet.css') }}" />
+</head>
+<body>
+    <div class="units-row wrap">
+        <div class="unit-25">
+            <!-- sidebar -->
+            <div class="buffer"><!--buffer--></div>
+            <h1>Janice Leung</h1>
+            <nav class="nav nav-stroked">
+              <ul>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Resume</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </nav>
+            <div class="buffer"><!--buffer--></div>
+            <div class="buffer"><!--buffer--></div>
+            <div class="social-icons">
+              <div class="unit-33">
+                <img src="assets/images/google.png" alt="gmail" />
+              </div>
+              <div class="unit-33">
+                <img src="assets/images/linkedin.png" alt="linkedin" />
+              </div>
+              <div class="unit-33">
+                <img src="assets/images/github.png" alt="github" />
+              </div>
+            </div>
+        </div>
+        <div class="unit-75">
+            <!-- content -->
+            {% block body %}{% endblock %}
+        </div>
+    </div>
+</body>
+</html>
