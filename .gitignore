@@ -43,3 +43,8 @@ nosetests.xml
 
 # virtualenv.
 venv
+
+
+#jekyll
+_site
+.sass-cache
