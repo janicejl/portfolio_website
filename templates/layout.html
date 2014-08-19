@@ -14,31 +14,34 @@
         <div class="unit-25">
             <!-- sidebar -->
             <div class="buffer"><!--buffer--></div>
-            <h1>Janice Leung</h1>
+            <a href="{{ url_for('home') }}" class="header-icon">
+              <h1>Janice Leung</h1>
+            </a>
             <nav class="nav nav-stroked">
               <ul>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Resume</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="{{ url_for('about') }}">About</a></li>
+                <li><a href="{{ url_for('projects') }}">Projects</a></li>
+                <li><a href="{{ url_for('contact') }}">Contact</a></li>
               </ul>
             </nav>
             <div class="buffer"><!--buffer--></div>
             <div class="buffer"><!--buffer--></div>
             <div class="social-icons">
               <div class="unit-33">
-                <img src="assets/images/google.png" alt="gmail" />
+                <img src="{{ url_for('static', filename='images/google.png') }}" alt="gmail" />
               </div>
               <div class="unit-33">
-                <img src="assets/images/linkedin.png" alt="linkedin" />
+                <img src="{{ url_for('static', filename='images/linkedin.png') }}" alt="linkedin" />
               </div>
               <div class="unit-33">
-                <img src="assets/images/github.png" alt="github" />
+                <img src="{{ url_for('static', filename='images/github.png') }}" alt="github" />
               </div>
             </div>
         </div>
-        <div class="unit-75">
-            <!-- content -->
-            {% block body %}{% endblock %}
+        <div class="unit-75 main-body">
+          <h1 class="header-title">{% block header %}{% endblock %}</h1>
+          <!-- content -->
+          {% block body %}{% endblock %}
         </div>
     </div>
 </body>

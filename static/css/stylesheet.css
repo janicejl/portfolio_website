@@ -9,6 +9,19 @@
   height: 100px;
 }
 
+.header-icon {
+  text-decoration: none;
+}
+
+.main-body {
+  padding: 70px 10px 10px 10px;
+}
+
+.header-title {
+  padding-bottom: 5px;
+  border-bottom: #eee solid 2px;
+}
+
 @media only screen and (max-width: 767px) {
   .wrap {
     width: 100%;
