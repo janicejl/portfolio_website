@@ -28,18 +28,18 @@
             <div class="buffer"><!--buffer--></div>
             <div class="social-icons">
               <div class="unit-33">
-                <img src="{{ url_for('static', filename='images/google.png') }}" alt="gmail" />
+                <img src="{{ "images/google.png" | prepend: site.baseurl }}" alt="gmail" />
               </div>
               <div class="unit-33">
-                <img src="{{ url_for('static', filename='images/linkedin.png') }}" alt="linkedin" />
+                <img src="{{ "images/linkedin.png" | prepend: site.baseurl }}" alt="linkedin" />
               </div>
               <div class="unit-33">
-                <img src="{{ url_for('static', filename='images/github.png') }}" alt="github" />
+                <img src="{{ "images/github.png" | prepend: site.baseurl }}" alt="github" />
               </div>
             </div>
         </div>
         <div class="unit-75 main-body">
-          <h1 class="header-title">{% block header %}{% endblock %}</h1>
+          <h1 class="header-title">{{ page.title }}</h1>
           <!-- content -->
           {{ content }}
         </div>
