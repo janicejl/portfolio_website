@@ -1,48 +1,14 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Janice Leung</title>
-
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <link rel="stylesheet" href="{{ "css/kube.min.css" | prepend: site.baseurl }}" />
-    <link rel="stylesheet" href="{{ "css/stylesheet.css" | prepend: site.baseurl }}" />
-</head>
+  {% include head.html %}
 <body>
-    <div class="units-row wrap">
-        <div class="unit-25">
-            <!-- sidebar -->
-            <div class="buffer"><!--buffer--></div>
-            <a href="{{ site.baseurl }}" class="header-icon">
-              <h1>Janice Leung</h1>
-            </a>
-            <nav class="nav nav-stroked">
-              <ul>
-                <li><a href="{{ url_for('about') }}">About</a></li>
-                <li><a href="{{ url_for('projects') }}">Projects</a></li>
-                <li><a href="{{ url_for('contact') }}">Contact</a></li>
-              </ul>
-            </nav>
-            <div class="buffer"><!--buffer--></div>
-            <div class="buffer"><!--buffer--></div>
-            <div class="social-icons">
-              <div class="unit-33">
-                <img src="{{ "images/google.png" | prepend: site.baseurl }}" alt="gmail" />
-              </div>
-              <div class="unit-33">
-                <img src="{{ "images/linkedin.png" | prepend: site.baseurl }}" alt="linkedin" />
-              </div>
-              <div class="unit-33">
-                <img src="{{ "images/github.png" | prepend: site.baseurl }}" alt="github" />
-              </div>
-            </div>
-        </div>
-        <div class="unit-75 main-body">
-          <h1 class="header-title">{{ page.title }}</h1>
-          <!-- content -->
-          {{ content }}
-        </div>
+  <div class="units-row wrap">
+    {% include header.html %}
+    <div class="unit-75 main-body">
+      <h1 class="header-title">{{ page.title }}</h1>
+      <!-- content -->
+      {{ content }}
     </div>
+  </div>
 </body>
 </html>
