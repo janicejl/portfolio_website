@@ -1,0 +1,20 @@
+---
+layout: default
+title: "Google Sketchup Work"
+when: "2004-2011"
+image: Playground.jpg
+skills:
+  - Sketchup
+  - Kerkythea
+links:
+  - text: Link to 3D Warehouse
+    site: https://3dwarehouse.sketchup.com/user.html?id=1709989739998828856023602
+  - text: Link to Picasa Album
+    site: https://plus.google.com/photos/107811246084440831622/albums/5540514594235796801?banner=pwa&authkey=COvCm8r9iOTt_QE
+---
+
+Whilst in Highschool, I had a lot of interest in drawing things in 3D. Google Sketchup was amazing in allowing me to draw a wide variety of items. Although not all the drawings were successful, the 3D warehouse hosts some of the models I drew. 
+
+After drawing the models in Google Sketchup, I occasionally also used the KerkyThea renderer to try and paint the models as realistic as possible. Despite never reaching full realism, I tried to portray lighting, reflecting and shadows as well as possible. 
+
+I have included links to both the 3D warehouse and also my picase album of some of my renders. 

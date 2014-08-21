@@ -1,0 +1,15 @@
+---
+layout: default
+title: "Film work in Highschool"
+when: "2004-2011"
+image: "film.png"
+skills:
+  - Final Cut Pro
+  - Adobe Premiere Pro
+  - Film Editing
+links:
+  - text: Link to Youtube
+    site: http://www.youtube.com/j0krester
+---
+
+During High School, I was part of the School film club. Through film, I helped filmed and edit many school productions and events. I also helped teachers with their video related teaching materials. Furthermore, I helped create video adverts for the English School Foundation Film Festival in Hong Kong. As part of my coursework in film, I created various short films. In the summer before starting at USC, I helped create advertisements for a new personal fitness and training center in Hong Kong. 

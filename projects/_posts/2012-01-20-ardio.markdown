@@ -1,0 +1,17 @@
+---
+layout: default
+title: "Ardio: Accessible Radio"
+when: "20-22 January 2012"
+image: ardioLogo.png
+skills:
+  - HTML
+  - CSS
+  - JavaScript
+links:
+  - text: Link to github repo
+    site: https://github.com/ProjPossibility/USC-AccessibleMusic2
+---
+
+Ardio is a online music player, powered by apis provided by rdio®, that aims to be accessible. It was created during a weekend long hackathon sponsored by Project Possibility. I was part of a team of five, and I contributed mainly to the layout of the website - making sure the site was functional and user friendly, but also accessible.
+
+My first ever hackathon!

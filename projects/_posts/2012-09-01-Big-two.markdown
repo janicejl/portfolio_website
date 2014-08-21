@@ -1,0 +1,10 @@
+---
+layout: default
+title: "Big 2 Card Game"
+when: "September 2012 - October 2012"
+image: big2.png
+skills:
+  - Java Swing
+---
+
+For a class project, I created the Big Two Card game following the rules and variations stated [here](http://www.pagat.com/climbing/bigtwo.html). Three different versions of the game was created: the first version was purely graphical using JFrames and painting graphics and ImageIcons; the second version used JPanels, and Java Swing objects to create a GUI version of the Big Two Game, adding even more functionalities such as saving, loading player information and creating players; In the final version of the game, I added an AI computer player. 

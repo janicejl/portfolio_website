@@ -1,0 +1,18 @@
+---
+layout: default
+title: "Factory Simulation"
+when: "October 2012 - December 2012"
+image: Factory.png
+skills:
+  - Java Swing
+  - Git
+links:
+  - text: Link to YouTube Demo
+    site: https://www.youtube.com/watch?v=UDoYGUnqSD8
+  - text: Factory Simulation Github Repo
+    site: "https://github.com/CS200_Factory_Project_team04"
+---
+
+A 12 person group project where 8 students, including me focused on the graphical elements of simulating a kitting factory. This included creating the animations that will be triggered when the agents call the appropriate doXXX() APIs. We also had to create panels, such as the factory control panel or parts creation panel, to control how many and what kinds of kits are created, as well as the items that make up a kit. We also had panels to control the non-normative scenarios of the factory, such as the lanes being jammed, or the grippers failing. 
+
+In order to work productively as a team, we made efficient use of Git as a version control. We found it very useful to revert quickly to a working version of the project to find bugs. We also made extensive use of Github's issue tracker. 

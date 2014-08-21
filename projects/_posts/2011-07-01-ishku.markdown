@@ -1,0 +1,13 @@
+--- 
+layout: default
+title: "Investment Society Hong Kong University Student Union (ISHKU)"
+when: "Summer 2011"
+image: ISHKU.png
+skills:
+  - HTML
+  - CSS
+  - JavaScript
+---
+
+During the summer, I collaborated through email with a board member of ISHKU and helped to redesigned thier society website in time for the new school year. 
+The website was created using HTML, CSS, and Javascript in Adobe Dreamweaver. The Graphics were created in Adobe Photoshop and GNU Image Manipulation Program (GIMP). 

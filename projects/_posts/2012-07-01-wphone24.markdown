@@ -1,0 +1,16 @@
+---
+layout: default
+title: "24 Math Game"
+when: "Summer 2012"
+image: "24_game.png"
+skills:
+  - Windows Phone
+  - XAML
+  - C#
+links:
+  - text: "Marketplace weblink"
+    site: "http://www.windowsphone.com/en-us/store/app/24/2a1ca634-642c-480b-a69b-1fb3d36f8f00"
+---
+
+A mathematical based game for the Windows Phone. Players have to find combinations to make 24 using the four numbers provided and arithmetic symbols. 
+
