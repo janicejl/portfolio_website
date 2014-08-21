@@ -13,13 +13,14 @@ title: Contact Me
   <fieldset>
     <label>
       Email
-      <input type="email" name="_replyto" class="width-50">
+      <input type="email" name="_replyto" id="form-email" class="width-50" placeholder="Your Email.">
     </label>
     <label>
       Content
-      <textarea name="body" class="width-100" rows=10></textarea>
+      <textarea name="body" class="width-100" rows=10 id="form-content"></textarea>
     </label>
     <input type="submit" value="Send" class="btn btn-outline btn-blue right">
     <input type="hidden" name="_next" value="{{ site.url }}/contact/thanks" />
   </fieldset>
 </form>
+

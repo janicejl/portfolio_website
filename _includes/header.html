@@ -1,27 +1,33 @@
 <div class="unit-25">
     <!-- sidebar -->
     <div class="buffer"><!--buffer--></div>
-    <a href="{{ site.baseurl }}" class="header-icon">
+    <a href="{{ site.url }}" class="header-icon">
       <h1>Janice Leung</h1>
     </a>
     <nav class="nav nav-stroked">
       <ul>
-        <li><a href="{{ url_for('about') }}">About</a></li>
-        <li><a href="{{ url_for('projects') }}">Projects</a></li>
-        <li><a href="{{ url_for('contact') }}">Contact</a></li>
+        <li><a href="{{ site.baseurl }}/about">About</a></li>
+        <li><a href="{{ site.baseurl }}/projects">Projects</a></li>
+        <li><a href="{{ site.baseurl }}/contact ">Contact</a></li>
       </ul>
     </nav>
     <div class="buffer"><!--buffer--></div>
     <div class="buffer"><!--buffer--></div>
     <div class="social-icons">
       <div class="unit-33">
-        <img src="{{ site.baseurl }}/images/google.png" alt="gmail" />
+        <a href="mailto:jjw1707@gmail.com" target="_blank">
+          <img src="{{ site.baseurl }}/images/google.png" alt="gmail" />
+        </a>
       </div>
       <div class="unit-33">
-        <img src="{{ site.baseurl }}/images/linkedin.png" alt="linkedin" />
+        <a href="https://www.linkedin.com/pub/janice-leung/5b/715/a28" target="_blank">
+          <img src="{{ site.baseurl }}/images/linkedin.png" alt="linkedin" />
+        </a>
       </div>
       <div class="unit-33">
-        <img src="{{ site.baseurl }}/images/github.png" alt="github" />
+        <a href="https://github.com/jjw1707" target="_blank">
+          <img src="{{ site.baseurl }}/images/github.png" alt="github" />
+        </a>
       </div>
     </div>
 </div>
