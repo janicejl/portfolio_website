@@ -3,4 +3,23 @@ layout: default
 title: Contact Me
 ---
 
-<h1>CONTACT</h1>
+<div>
+  Thanks for visitng. I would love to get in touch. Please feel free to email me below, it can be suggestions, comments or more. 
+</div>
+
+<br />
+
+<form method="post" action="//forms.brace.io/jjw1707@gmail.com" class="forms">
+  <fieldset>
+    <label>
+      Email
+      <input type="email" name="_replyto" class="width-50">
+    </label>
+    <label>
+      Content
+      <textarea name="body" class="width-100" rows=10></textarea>
+    </label>
+    <input type="submit" value="Send" class="btn btn-outline btn-blue right">
+    <input type="hidden" name="_next" value="{{ site.url }}/contact/thanks" />
+  </fieldset>
+</form>

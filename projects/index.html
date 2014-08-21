@@ -4,3 +4,44 @@ title: Projects
 ---
 
 <div>Below are some projects I have taken part in before. Through each project, I try to both improve my skills, as well as acquire new skills.</div>
+
+{% for post in paginator.posts %}
+<div class="project">
+  <hgroup>
+    <h3>{{ post.title }}</h3>
+    <h3 class="subheading">{{ post.when }}</h3>
+    <h4 class="subheading">Skills - {{ post.skills | array_to_sentence_string }}</h4>
+  </hgroup>
+  <img src="{{ site.baseurl }}{{ post.image }}" />
+  <div class="project-details">
+    {{ post.content }}
+  </div>
+</div>
+{% endfor %}
+
+<!-- Pagination links -->
+{% if paginator.total_pages > 1 %}
+  <div class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
+  {% else %}
+    <span>&laquo; Prev</span>
+  {% endif %}
+  
+  {% for page in (1..paginator.total_pages) %}
+    {% if page == paginator.page %}
+      <em>{{ page }}</em>
+    {% elsif page == 1 %}
+      <a href="{{ '/index.html' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
+    {% else %}
+      <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+    {% endif %}
+  {% endfor %}
+  
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
+  {% else %}
+    <span>Next &raquo;</span>
+  {% endif %}
+  </div>
+{% endif %}

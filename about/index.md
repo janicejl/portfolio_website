@@ -16,7 +16,9 @@ At the moment, I am seeking a **Full Time** job after I graduate in May 2015. I 
 I am also looking for a **spring 2015 internship/co-op** at a Southern California based startup. 
 
 ### Interests and Goals
-I am interested in broaden my experiences in all aspects and grow as a full stack developer. I always look for opportunities to expand my experiences in coding and try to develop on a variety of different platforms. Please feel free to contact me if you think I would be appropriate for a project. Thank you. 
+I am interested in broaden my experiences in all aspects and grow as a full stack developer. I always look for opportunities to expand my experiences in coding and try to develop on a variety of different platforms. 
+
+Please feel free to contact me if you think I would be appropriate for a project. Thank you. 
 
 <br />
 
