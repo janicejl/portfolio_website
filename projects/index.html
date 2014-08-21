@@ -5,6 +5,8 @@ title: Projects
 
 <div>Below are some projects I have taken part in before. Through each project, I try to both improve my skills, as well as acquire new skills.</div>
 
+<br />
+
 {% for post in paginator.posts %}
 <div class="project">
   <hgroup>
@@ -12,10 +14,15 @@ title: Projects
     <h3 class="subheading">{{ post.when }}</h3>
     <h4 class="subheading">Skills - {{ post.skills | array_to_sentence_string }}</h4>
   </hgroup>
-  <img src="{{ site.baseurl }}{{ post.image }}" />
+  <img src="{{ site.baseurl }}/projects/images/{{ post.image }}" class="padding-10" />
   <div class="project-details">
     {{ post.content }}
   </div>
+  {% for link in post.links %}
+    <div>
+      <a href="{{ link.site }}" class="btn btn-outline btn-blue right" target="_blank">{{ link.text }}</a>
+    </div>
+  {% endfor %}
 </div>
 {% endfor %}
 
