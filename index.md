@@ -1,9 +1,9 @@
 ---
 layout: default
-title: About Me
+title: ""
 ---
 
-<figure class="width-50 right">
+<figure class="width-50 right padding-10">
   <img src="{{ site.baseurl }}/images/me.jpg" alt="Janice Leung - Thanks for visiting my website." title="Yosemite March 2014"/>
   <figcaption>Yosemite March 2014</figcaption>
 </figure>

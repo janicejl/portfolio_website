@@ -5,7 +5,9 @@
   <div class="units-row wrap">
     {% include header.html %}
     <div class="unit-75 main-body">
-      <h1 class="header-title">{{ page.title }}</h1>
+      {% if page.title != "" && page.title != nil %}
+        <h1 class="header-title">{{ page.title }}</h1>
+      {% endif %}
       <!-- content -->
       {{ content }}
     </div>
