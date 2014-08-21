@@ -8,18 +8,20 @@ title: Projects
 <br />
 
 {% for post in paginator.posts %}
-<div class="project">
+<div class="project group">
   <hgroup>
     <h3>{{ post.title }}</h3>
     <h3 class="subheading">{{ post.when }}</h3>
     <h4 class="subheading">Skills - {{ post.skills | array_to_sentence_string }}</h4>
   </hgroup>
-  <img src="{{ site.baseurl }}/projects/images/{{ post.image }}" class="padding-10" />
+  {% if post.image != "" && post.image != nil %}
+    <img src="{{ site.baseurl }}/projects/images/{{ post.image }}" class="padding-10" />
+  {% endif %}
   <div class="project-details">
     {{ post.content }}
   </div>
   {% for link in post.links %}
-    <div>
+    <div class="group padding-5">
       <a href="{{ link.site }}" class="btn btn-outline btn-blue right" target="_blank">{{ link.text }}</a>
     </div>
   {% endfor %}

@@ -1,0 +1,13 @@
+---
+layout: default
+title: "LIIM - LinkedIn Inventory Management"
+when: "12-13 July 2013"
+image: LIIM.png
+skills:
+  - Ruby on Rails
+links:
+  - text: LIIM Github Repo
+    site: https://github.com/riichb/StockIN
+---
+
+This project started over a 24 hour hackathon held by LinkedIn for Interns. Interns of all companies were welcomed. I teamed up with 2 other LinkedIn Interns to create a Inventory Management system to replace the rather inefficient system used currently by LinkedIn. Through the hackathon, we were able to create all the features needed to replace the current system. Most importantly, LIIM is able to maintain an accurate inventory count, which was not always possible with the old system. After getting feedback from the users of the system, we have incorporated a lot of their suggestions. 
