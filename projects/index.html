@@ -5,8 +5,9 @@ title: Projects
 
 <div>Below are some projects I have taken part in before. Through each project, I try to both improve my skills, as well as acquire new skills.</div>
 
-{% for post in paginator.posts %}
 <br />
+
+{% for post in paginator.posts %}
 <div class="project group">
   <hgroup>
     <h3>{{ post.title }}</h3>
@@ -24,32 +25,33 @@ title: Projects
       <a href="{{ link.site }}" class="btn btn-outline btn-blue right" target="_blank">{{ link.text }}</a>
     </div>
   {% endfor %}
+  <br />
 </div>
 {% endfor %}
 
 <!-- Pagination links -->
 {% if paginator.total_pages > 1 %}
-  <div class="pagination">
+  <div class="pagination group">
   {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="btn btn-outline btn-black">&laquo; Prev</a>
   {% else %}
-    <span>&laquo; Prev</span>
+    <button class="btn btn-black btn-disabled"><span>&laquo; Prev</span></button>
   {% endif %}
   
   {% for page in (1..paginator.total_pages) %}
     {% if page == paginator.page %}
-      <em>{{ page }}</em>
+      <button class="btn btn-black btn-disabled"><em>{{ page }}</em></button>
     {% elsif page == 1 %}
-      <a href="{{ '/index.html' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
+      <a href="{{ '/index.html' | prepend: site.baseurl | replace: '//', '/' }}" class="btn btn-outline btn-black">{{ page }}</a>
     {% else %}
-      <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+      <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}" class="btn btn-outline btn-black">{{ page }}</a>
     {% endif %}
   {% endfor %}
   
   {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="btn btn-outline btn-black">Next &raquo;</a>
   {% else %}
-    <span>Next &raquo;</span>
+    <button class="btn btn-black btn-disabled"><span>Next &raquo;</span></button>
   {% endif %}
   </div>
 {% endif %}
